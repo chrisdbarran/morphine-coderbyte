@@ -13,6 +13,6 @@ describe('DashInsert(str)', function () {
         assert.equal("9-9-946", test.DashInsert("99946"));
     });
     it('should return 567-30 for 56730', function() {
-        assert.equal("567-30", test.DashInsert("567-30"));
+        assert.equal("567-30", test.DashInsert("56730"));
     });
 });
