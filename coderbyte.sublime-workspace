@@ -1,0 +1,385 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"findM",
+				"findMean"
+			],
+			[
+				"mind",
+				"minday1"
+			],
+			[
+				"min",
+				"min1"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"max",
+				"maxWidth"
+			],
+			[
+				"wi",
+				"widthOfLength"
+			],
+			[
+				"out",
+				"output_file"
+			],
+			[
+				"csv",
+				"csv_text"
+			],
+			[
+				"legend",
+				"legendOptions"
+			],
+			[
+				"lege",
+				"legendOptions"
+			],
+			[
+				"leg",
+				"LegendOptions"
+			],
+			[
+				"le",
+				"LegendOptions"
+			],
+			[
+				"Legen",
+				"LegendOptions"
+			],
+			[
+				"d",
+				"draw"
+			],
+			[
+				"e",
+				"elasticsearch-marvel"
+			],
+			[
+				"issue",
+				"issue-log"
+			],
+			[
+				"gs",
+				"gsub"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/CountingMinutesITest.js",
+			"settings":
+			{
+				"buffer_size": 671,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/DashInsertTest.js",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/DashInsert.js",
+			"settings":
+			{
+				"buffer_size": 77,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 315.0
+	},
+	"console":
+	{
+		"height": 299.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chris/Workspace/CloudFoundryStudentFiles/cf-spring-mvc-trouble/src/main/java/com/gopivotal/cf/workshop/Config.java",
+		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/chris/Workspace/international-scholarships/build.gradle",
+		"/Users/chris/Workspace/Documentation/README.md",
+		"/Users/chris/Workspace/Documentation/svn/README.md",
+		"/Users/chris/Workspace/Documentation/svn/Push.md",
+		"/Users/chris/Workspace/Documentation/svn/authors.txt",
+		"/Users/chris/Workspace/Documentation/svn/AuthorsTxt.md",
+		"/Users/chris/Workspace/Documentation/svn/Fetch.md",
+		"/Users/chris/Workspace/Documentation/svn/Tags.md",
+		"/Users/chris/Workspace/Documentation/svn/Branches.md",
+		"/Users/chris/Workspace/Documentation/svn/Svn2Git.md",
+		"/Users/chris/bin/apache-maven-3.2.3/conf/settings.xml",
+		"/Users/chris/Workspace/mail-to-name-lookup/mail-to-name-lookup.rb",
+		"/Users/chris/Workspace/mail-to-name-lookup/emails.txt",
+		"/Users/chris/Downloads/Options Appraisal - Chart Data - Guiding Principles Data.csv",
+		"/Users/chris/Workspace/ssp-radar-chart/src/guiding-principles/csvtojson.rb",
+		"/Users/chris/Workspace/ssp-radar-chart/src/guiding-principles/guidingprinciples.csv",
+		"/Users/chris/Workspace/ssp-radar-chart/src/guiding-principles/csv2json.rb",
+		"/Users/chris/Workspace/ssp-radar-chart/src/guiding-principles/data.js",
+		"/Users/chris/Workspace/ssp-radar-chart/src/guiding-principles/data.json",
+		"/Users/chris/Workspace/workshop-documentation/README.md",
+		"/Users/chris/Desktop/treasureisland.txt",
+		"/Users/chris/Workspace/angular-phonecat/app/js/app.js",
+		"/Users/chris/Workspace/angular-phonecat/app/js/controllers.js",
+		"/Users/chris/Desktop/Blue_treemap.svg",
+		"/Users/chris/Workspace/moneyplanner-angular/src/app/index.js",
+		"/Users/chris/Workspace/moneyplanner-angular/Dockerfile",
+		"/Users/chris/Workspace/issuesLog/nodejs/src/package.json",
+		"/Users/chris/Workspace/moneyplanner-angular/src/app/app.js",
+		"/Users/chris/Workspace/moneyplanner-angular/bootstrap.sh",
+		"/Users/chris/Workspace/moneyplanner-js/src/Dockerfile",
+		"/Users/chris/Workspace/issuesLog/nodejs/src/issuecount.json",
+		"/Users/chris/Workspace/issuesLog/es/data/issues.json",
+		"/Users/chris/Workspace/issuesLog/es/Dockerfile",
+		"/Users/chris/Workspace/issuesLog/src/package.json",
+		"/Users/chris/Workspace/issuesLog/elasticsearch/Dockerfile",
+		"/Users/chris/Workspace/issuesLog/test.sh",
+		"/Users/chris/Workspace/issuesLog/Dockerfile",
+		"/Users/chris/Workspace/issuesLog/data/issue-log.json",
+		"/Users/chris/Workspace/issuesLog/data/test.json",
+		"/Users/chris/Workspace/issuesLog/populate.sh",
+		"/Users/chris/Workspace/Titanic/src/my.py",
+		"/Users/chris/Workspace/Word Analysis/index.html",
+		"/Users/chris/Workspace/Word Analysis/tokenizer.rb",
+		"/Users/chris/Workspace/Word Analysis/texttoprocess.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"save",
+			"total",
+			"cfg.h",
+			"cfg.h/2",
+			"cfg.w",
+			"cfg.w/2",
+			"Minimum",
+			"Format",
+			"541F981B480CE721B344F1D83FDD7BD1",
+			"javaqa",
+			"^\\n",
+			"^\\r",
+			"^\\n$",
+			"^\\n",
+			"\\n",
+			"contents"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"A2E563F6DC7712B6354955A40434F2D1",
+			"www",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/CountingMinutesITest.js",
+					"settings":
+					{
+						"buffer_size": 671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/DashInsertTest.js",
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/DashInsert.js",
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
