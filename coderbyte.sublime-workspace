@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Number",
+				"NumberSearch"
+			],
+			[
+				"s",
+				"SwapCase"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"S",
+				"SwapCase"
+			],
+			[
 				"findM",
 				"findMean"
 			],
@@ -75,30 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/CountingMinutesITest.js",
-			"settings":
-			{
-				"buffer_size": 671,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/DashInsertTest.js",
-			"settings":
-			{
-				"buffer_size": 220,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/DashInsert.js",
-			"settings":
-			{
-				"buffer_size": 77,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -136,6 +128,15 @@
 	},
 	"file_history":
 	[
+		"/Users/chris/Workspace/coderbyte/src/NumberSearch.js",
+		"/Users/chris/Workspace/coderbyte/src/NumberSearchTest.js",
+		"/Users/chris/Workspace/coderbyte/src/SwapCaseTest.js",
+		"/Users/chris/Workspace/coderbyte/src/DashInsertIITest.js",
+		"/Users/chris/Workspace/coderbyte/src/DashInsertTest.js",
+		"/Users/chris/Workspace/coderbyte/src/DashInsert.js",
+		"/Users/chris/Workspace/coderbyte/src/DashInsertII.js",
+		"/Users/chris/Workspace/coderbyte/src/SwapCase.js",
+		"/Users/chris/Workspace/coderbyte/src/CountingMinutesITest.js",
 		"/Users/chris/Workspace/CloudFoundryStudentFiles/cf-spring-mvc-trouble/src/main/java/com/gopivotal/cf/workshop/Config.java",
 		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/chris/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -238,89 +239,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/CountingMinutesITest.js",
-					"settings":
-					{
-						"buffer_size": 671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								75,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/DashInsertTest.js",
-					"settings":
-					{
-						"buffer_size": 220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/DashInsert.js",
-					"settings":
-					{
-						"buffer_size": 77,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54,
-								54
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
