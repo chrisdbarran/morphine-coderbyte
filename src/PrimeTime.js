@@ -36,7 +36,7 @@ exports.PrimeTime = function (num) {
 
     var max = (num < 4) ? 4 : Math.sqrt(num);
 
-    for(i = 3; i < max; i++)
+    for(var i = 3; i < max; i++)
     {
       if(isPrime(i)) { primes.push(i); }
     }
