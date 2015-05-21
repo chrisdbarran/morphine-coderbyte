@@ -6,7 +6,7 @@ exports.OfflineMinimum = function(strArr) {
 
     // iterate over strArr
     strArr.forEach(function (item) {
-        if(item != "E")
+        if(item != 'E')
         {
            set.push(item); 
        } else {
@@ -24,4 +24,4 @@ exports.OfflineMinimum = function(strArr) {
     });
 
     return result;
-}
+};

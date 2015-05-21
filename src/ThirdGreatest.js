@@ -1,4 +1,4 @@
-var exports = module.exports = {}
+var exports = module.exports = {};
 
 exports.ThirdGreatest = function (strArr) {
     // Sort the array on length and return the third element
@@ -8,4 +8,4 @@ exports.ThirdGreatest = function (strArr) {
         return 1;
     });
     return sorted[2];
-}
+};

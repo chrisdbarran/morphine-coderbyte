@@ -9,7 +9,7 @@ exports.DivisionStringified = function (num1, num2) {
    arr.forEach(function (item, index) {
        //if it's not the first digit 
        // Insert comma after every three digits
-       if((index > 0) &&  (index % 3 == 0)) {
+       if((index > 0) &&  (index % 3 === 0)) {
            ans.push(',');
        } 
        ans.push(item);
@@ -17,4 +17,4 @@ exports.DivisionStringified = function (num1, num2) {
    
    // reverse the array and convert back to a string
    return ans.reverse().join('');
-}
+};

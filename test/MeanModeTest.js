@@ -1,6 +1,6 @@
-var test = require('../src/MeanMode.js')
+var test = require('../src/MeanMode.js');
 
-var assert = require("assert")
+var assert = require('assert');
 
 describe('findMean(arr)', function() {
     it('should return 3 when arr = [5, 3, 3, 3, 1] ', function() {

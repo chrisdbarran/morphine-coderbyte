@@ -5,7 +5,7 @@ exports.MeanMode = function (arr) {
    var mode = this.findMode(arr);
 
   return (mean == mode) ? 1 : 0;
-}
+};
 
 exports.findMean = function (arr) {
   var total = arr.reduce(function(a,b) {
@@ -13,14 +13,18 @@ exports.findMean = function (arr) {
   });
 
   return total / arr.length;
-}
+};
 
 exports.findMode = function (arr) {
     var cnts = {};
 
     // Count the insidence of each number
     arr.forEach(function (item) {
-        (cnts.hasOwnProperty(item)) ? cnts[item]++ : cnts[item] = 1;
+        if(cnts.hasOwnProperty(item)) { 
+          cnts[item]++;
+        } else {
+          cnts[item] = 1;
+        }
     });
 
     // find the one that occurs most often.
@@ -30,4 +34,4 @@ exports.findMode = function (arr) {
 
     // If the calculated mode only occurs once there is no mode so return -1
     return (cnts[mode] == 1) ? -1 : mode;
-}
+};

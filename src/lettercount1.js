@@ -1,8 +1,10 @@
-function LetterCountI(str) { 
+var exports = module.exports = {};
 
-  var words = str.split(' ')
+exports.LetterCountI = function (str) { 
+
+  var words = str.split(' ');
   
-  var x = {}
+  var x = {};
   // for each word
   words.forEach(function(word) {
     x[word] = lettercount(word);
@@ -16,13 +18,17 @@ function LetterCountI(str) {
   // If no repeating letters return -1
   return (x[max] == 1) ? -1 : max;
         
-}
+};
 
-function lettercount(word) {
+exports.lettercount = function (word) {
   w = {};
     // count the instances of letters
   word.split('').forEach(function(letter) {
-     (w.hasOwnProperty(letter))? w[letter] += 1 : w[letter] = 1;
+     if(w.hasOwnProperty(letter)) {
+       w[letter] += 1;
+     } else {
+      w[letter] = 1;
+     } 
   });
 
   // find the letter with the max occurences
@@ -30,9 +36,4 @@ function lettercount(word) {
      return (w[a] > w[b]) ? a : b;
   });
   return w[max];
-}
-
-
-// keep this function call here 
-// to see how to enter arguments in JavaScript scroll down
-LetterCountI(readline());           
+};

@@ -2,13 +2,26 @@
   "name": "coderbyte",
   "version": "1.0.0",
   "description": "Scripts and tests for CoderByte challenges",
+  "contributors": [
+    {
+      "name": "Chris Barran",
+      "email": "chris.d.barran@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdbarran/morphine-coderbyte.git"
+  },
   "main": "index.js",
   "dependencies": {
     "chai": "^2.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2"
+  },
   "scripts": {
-    "test": "mocha src/test.js"
+    "test": "mocha tests"
   },
   "author": "chris.d.barran@gmail.com",
   "license": "ISC"

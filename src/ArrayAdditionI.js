@@ -1,5 +1,11 @@
 /*
-Using the JavaScript language, have the function ArrayAdditionI(arr) take the array of numbers stored in arr and return the string true if any combination of numbers in the array can be added up to equal the largest number in the array, otherwise return the string false. For example: if arr contains [4, 6, 23, 10, 1, 3] the output should return true because 4 + 6 + 10 + 3 = 23. The array will not be empty, will not contain all the same elements, and may contain negative numbers. 
+Using the JavaScript language, have the function ArrayAdditionI(arr) take the 
+array of numbers stored in arr and return the string true if any combination 
+of numbers in the array can be added up to equal the largest number in the 
+array, otherwise return the string false. For example: if arr contains 
+[4, 6, 23, 10, 1, 3] the output should return true 
+because 4 + 6 + 10 + 3 = 23. The array will not be empty, will not contain 
+all the same elements, and may contain negative numbers. 
 */
 var exports = module.exports = {};
 
@@ -23,7 +29,7 @@ exports.ArrayAdditionI = function (arr) {
       var t = items[i];
       items[i] = items[j];
       items[j] = t;
-   }
+   };
 
    var permute = function (n) { 
       if(n == 1) {
@@ -37,7 +43,7 @@ exports.ArrayAdditionI = function (arr) {
               swap((n % 2) ? 0 : i, n - 1);
           }
       }
-   }
+   };
 
    // generate all the permutations
    permute(items.length);
@@ -50,7 +56,7 @@ exports.ArrayAdditionI = function (arr) {
    perms.forEach(function (perm){
       // each permutation is an array so loop over those
       perm.reduce(function (p,v) {
-        if(p + v == max) { works = true};
+        if(p + v == max) { works = true;}
         return p + v;
       });
    });

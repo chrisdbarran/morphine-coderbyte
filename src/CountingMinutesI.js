@@ -4,7 +4,7 @@ exports.CountingMinutesI = function (str) {
 
 
 // Split on hyphen to get the two times
-var times = str.split("-");
+var times = str.split('-');
 
 
 var time1 = times[0];
@@ -21,8 +21,8 @@ var ampm2 = time2.slice(-2);
 
 // Convert to minute of the day
 
-var minday1 = (ampm1 == "pm") ? (hour1 + 12) * 60 + min1 : hour1 * 60 + min1;
-var minday2 = (ampm2 == "pm") ? (hour2 + 12) * 60 + min2 : hour2 * 60 + min2;
+var minday1 = (ampm1 == 'pm') ? (hour1 + 12) * 60 + min1 : hour1 * 60 + min1;
+var minday2 = (ampm2 == 'pm') ? (hour2 + 12) * 60 + min2 : hour2 * 60 + min2;
 
   /* e.g.
      9:00am-10:00am 
@@ -39,4 +39,4 @@ var minday2 = (ampm2 == "pm") ? (hour2 + 12) * 60 + min2 : hour2 * 60 + min2;
     */
     return (1440 - minday1) + minday2;
 
-}
+};

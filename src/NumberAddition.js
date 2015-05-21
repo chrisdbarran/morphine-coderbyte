@@ -7,10 +7,10 @@ exports.NumberAddition = function (str) {
 
    var res = str.match(pattern);
 
-   if(res == null) return 0;
+   if(res === null) return 0;
 
    // Then add them up. 
    return res.reduce(function (p,v) {
      return Number(p) + Number(v);
    });
-}
+};
