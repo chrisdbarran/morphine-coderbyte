@@ -10,10 +10,20 @@ module.exports = function (grunt) {
                 maxlen: 80,
                 quotmark: 'single'
             }
+        },
+        simplemocha: {
+            options: {
+                globals: ['expect'],
+                timeout: 3000,
+                ignoreLeaks: false,
+                ui: 'bdd',
+                reporter: 'Spec'
+            },
+            all: { src: ['test/*.js'] }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
-
-    grunt.registerTask('default', ['jshint']);
+    grunt.loadNpmTasks('grunt-simple-mocha');
+    grunt.registerTask('default', ['jshint','simplemocha']);
 };
