@@ -1,4 +1,4 @@
-var test = require('./DivisionStringified.js')
+var test = require('../src/DivisionStringified.js')
 
 var assert = require("assert")
 

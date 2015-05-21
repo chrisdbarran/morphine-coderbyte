@@ -1,4 +1,4 @@
-var test = require('./ArrayAdditionI.js');
+var test = require('../src/ArrayAdditionI.js');
 var assert = require('assert');
 
 describe('ArrayAdditionI(arr)', function () {

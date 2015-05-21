@@ -1,4 +1,4 @@
-var test = require('./OfflineMinimum.js');
+var test = require('../src/OfflineMinimum.js');
 var assert = require('assert');
 
 describe('OfflineMinimum(strArr', function () {

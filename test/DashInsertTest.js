@@ -1,4 +1,4 @@
-var test = require('./DashInsert.js');
+var test = require('../src/DashInsert.js');
 
 var assert = require("assert");
 

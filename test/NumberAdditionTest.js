@@ -1,4 +1,4 @@
-var test = require('./NumberAddition.js');
+var test = require('../src/NumberAddition.js');
 
 var assert = require('assert');
 

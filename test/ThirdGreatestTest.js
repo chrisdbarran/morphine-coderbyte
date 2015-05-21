@@ -1,4 +1,4 @@
-var test = require('./ThirdGreatest.js');
+var test = require('../src/ThirdGreatest.js');
 
 var assert = require('assert');
 

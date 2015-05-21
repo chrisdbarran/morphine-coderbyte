@@ -1,4 +1,4 @@
-var test = require('./AdditivePersistence.js');
+var test = require('../src/AdditivePersistence.js');
 var assert = require('assert');
 
 describe('AdditivePersistence(num)', function () {

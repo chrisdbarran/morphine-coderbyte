@@ -1,4 +1,4 @@
-var test = require('./MultiplicativePersistence.js');
+var test = require('../src/MultiplicativePersistence.js');
 var assert = require('assert');
 
 describe('MultiplicativePersistence(num)', function () {

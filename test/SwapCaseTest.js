@@ -1,4 +1,4 @@
-var test = require('./SwapCase.js');
+var test = require('../src/SwapCase.js');
 
 var assert = require('assert');
 

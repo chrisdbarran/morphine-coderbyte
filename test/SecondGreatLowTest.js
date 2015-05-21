@@ -1,4 +1,4 @@
-var sgt = require('./SecondGreatLow.js')
+var sgt = require('../src/SecondGreatLow.js')
 
 var assert = require("assert")
   describe('SecondGreatLow()', function(){

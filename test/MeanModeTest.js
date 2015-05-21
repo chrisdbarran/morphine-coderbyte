@@ -1,4 +1,4 @@
-var test = require('./MeanMode.js')
+var test = require('../src/MeanMode.js')
 
 var assert = require("assert")
 

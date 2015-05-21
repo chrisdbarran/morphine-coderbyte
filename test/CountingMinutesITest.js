@@ -1,4 +1,4 @@
-var test = require('./CountingMinutesI.js')
+var test = require('../src/CountingMinutesI.js')
 
 var assert = require("assert")
 

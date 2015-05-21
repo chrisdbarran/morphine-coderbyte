@@ -1,4 +1,4 @@
-var test = require('./PowersOfTwo.js');
+var test = require('../src/PowersOfTwo.js');
 
 var assert = require('assert');
 

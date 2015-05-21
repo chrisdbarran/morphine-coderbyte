@@ -1,4 +1,4 @@
-var test = require('./PrimeTime.js')
+var test = require('../src/PrimeTime.js')
 var assert = require('assert')
 
 describe('PrimeTime(num)', function () {

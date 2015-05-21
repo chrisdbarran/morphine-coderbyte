@@ -23,5 +23,5 @@ exports.OfflineMinimum = function(strArr) {
         
     });
 
-    return result.join(',');
+    return result;
 }
