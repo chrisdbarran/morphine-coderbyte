@@ -12,7 +12,7 @@ var exports = module.exports = {};
 exports.LetterCountI = function (str) { 
 
     var lettercount = function (word) {
-      w = {};
+      var w = {};
       // count the instances of letters
       word.split('').forEach(function(letter) {
            if(w.hasOwnProperty(letter)) {
@@ -27,7 +27,7 @@ exports.LetterCountI = function (str) {
          return (w[a] > w[b]) ? a : b;
       });
       return w[max];
-    }
+    };
 
 
   var words = str.split(' ');
