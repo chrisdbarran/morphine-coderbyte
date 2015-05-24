@@ -14,7 +14,7 @@ exports.Division = function (num1, num2) {
     var factors = [];
     for (var i=1; i <=num; i++)
     {
-        if(num % i == 0) { factors.push(i);}
+        if(num % i === 0) { factors.push(i);}
     }
     return factors;
   };
