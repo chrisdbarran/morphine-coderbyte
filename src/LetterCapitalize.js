@@ -11,7 +11,7 @@ exports.LetterCapitalize = function (str) {
   var newStr = [];
   
   words.forEach(function(word) {
-    wordArr = word.split('');
+    var wordArr = word.split('');
     wordArr[0] = wordArr[0].toUpperCase();
     newStr.push(wordArr.join(''));    
   });  
